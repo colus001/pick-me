@@ -1,0 +1,29 @@
+button, .button, a {
+  background-color: white;
+  border-color: gray;
+  color: gray;
+
+  &:hover {
+    color: #FF0080;
+    cursor: pointer;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, blockquote {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  h3 {
+    margin-bottom: 1rem;
+  }
+}
+
+pre {
+  border-left: 0.3rem solid #FF0080;
+  // margin-bottom: 1rem;
+}

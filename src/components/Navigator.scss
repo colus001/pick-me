@@ -1,0 +1,67 @@
+@import '../styles/mixins';
+
+.container {
+  margin-bottom: 0;
+
+  @include user-select(none);
+
+  @include desktop {
+    margin-top: 10rem;
+    text-align: center;
+  }
+
+  @include mobile {
+    text-align: right;
+    position: fixed;
+    right: 2rem;
+    top: 2rem;
+  }
+
+  h3 {
+    margin-bottom: 1rem;
+  }
+}
+
+.wrapper {
+  @include mobile {
+    display: none;
+
+    h3 {
+      display: none;
+    }
+  }
+}
+
+.showWrapper {
+  display: inline;
+}
+
+.link {
+  background-color: transparent;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+
+  @include desktop {
+    display: none;
+  }
+}
+
+.list {
+  margin-top: 0;
+  list-style: none;
+}
+
+.listItem {
+  @include desktop {
+    margin-right: 2rem;
+    display: inline-block;
+  }
+
+  @include mobile {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+  }
+}

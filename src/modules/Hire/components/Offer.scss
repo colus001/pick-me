@@ -1,0 +1,30 @@
+@import '../../../styles/mixins';
+
+.container {
+  @include user-select(none);
+  border: 1px solid lightgray;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.confirmed {
+  cursor: pointer;
+  color: #606c76;
+}
+
+.unConfirmed {
+  color: lightgray;
+  cursor: no-drop;
+}
+
+.caret {
+  margin: 0 .5rem 0 .75rem;
+  display: inline-block;
+}
+
+.check {
+  color: #FF0080;
+  margin-top: .3rem;
+  display: inline-block;
+  float: right;
+}

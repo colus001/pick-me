@@ -1,0 +1,27 @@
+@import '../../styles/mixins';
+
+.container {
+  margin: 8rem auto 0;
+}
+
+.profileImage {
+  display: block;
+  margin: 0 auto 1rem;
+  width: 25rem;
+}
+
+.description {
+  text-align: center;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+}
+
+.quotes {
+  margin-top: 3rem;
+
+  h3 {
+    text-align: center;
+  }
+}

@@ -1,0 +1,22 @@
+.container {
+  h3 {
+    display: inline-block;
+    font-weight: 100;
+    color: #FF0080;
+    letter-spacing: .2rem;
+  }
+
+  .position {
+    display: inline-block;
+
+    &::before {
+      content: 'as ';
+      margin-left: 1rem;
+    }
+  }
+
+  p {
+    font-style: oblique;
+    margin-bottom: 1.5rem;
+  }
+}

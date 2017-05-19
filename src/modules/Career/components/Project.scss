@@ -1,0 +1,21 @@
+.container {
+  // background-color: gold;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid lightgray;
+
+  h5 {
+    margin-bottom: 1rem;
+    color: #279CAF;
+  }
+
+  p {
+    font-style: oblique;
+  }
+
+  ul {
+    list-style: circle;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+}

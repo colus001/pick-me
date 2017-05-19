@@ -1,0 +1,16 @@
+.buttons {
+  margin-top: 1rem;
+  text-align: center;
+
+  button {
+    width: 12rem;
+  }
+
+  button:first-child {
+    margin-right: 1rem;
+  }
+
+  button:nth-child(2) {
+    margin-left: 1rem;
+  }
+}

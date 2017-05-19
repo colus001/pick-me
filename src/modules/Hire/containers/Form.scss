@@ -1,0 +1,28 @@
+@import '../../../styles/mixins';
+
+.container {
+  position: relative;
+
+  label {
+    font-weight: 300;
+  }
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.login {
+  @include mobile {
+    width: 100%;
+  }
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 45rem;
+  transform: translate3d(-50%, -50%, 0);
+  background-color: white;
+  border: 1px solid black;
+}
