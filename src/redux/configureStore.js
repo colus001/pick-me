@@ -7,7 +7,7 @@ const isBrowser = () => (typeof self === 'object')
 
 const middlewares = [thunkMiddleware]
 
-const composeEnhancers = isBrowser() ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ : compose
+const composeEnhancers = isBrowser() ? (window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose) : compose
 
 const createStoreWithMiddleware = composeEnhancers(
   applyMiddleware(...middlewares)
