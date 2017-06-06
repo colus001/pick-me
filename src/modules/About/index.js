@@ -27,6 +27,7 @@ class About extends Component {
 
     const lastDisplayedAt = localStorage.getItem('lastDisplayedAt')
     const hasDisplayedADayAgo = moment(lastDisplayedAt).add(1, 'days').isSameOrBefore(moment())
+    // const hasDisplayedADayAgo = moment(lastDisplayedAt).add(1, 'seconds').isSameOrBefore(moment())
     const isHiding = lastDisplayedAt && !hasDisplayedADayAgo
     if (isHiding) return
 
