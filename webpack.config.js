@@ -73,7 +73,8 @@ const config = {
       use: [{
         loader: 'html-loader',
         options: {
-          minimize: true,
+          minimize: false,
+          interpolate: 'require',
         },
       }],
     }],
