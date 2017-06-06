@@ -12,7 +12,7 @@ import SoftSkills from './components/SoftSkills'
 import styles from './About.scss'
 
 const A_SECOND = 1000
-const DURATION = 1 * A_SECOND
+const DURATION = 20 * A_SECOND
 
 const Surprise = () => (
   <div>
