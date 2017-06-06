@@ -1,0 +1,49 @@
+@import '../styles/mixins';
+
+.container {
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.wrapper {
+  background: white;
+  position: relative;
+  margin: 20% auto 0;
+  width: 80%;
+
+  @include desktop {
+    width: 50rem;
+  }
+}
+
+.title {
+  background-color: lightgray;
+  padding: 1rem 0;
+  color: #FF0080;
+  text-align: center;
+}
+
+.content {
+  padding: 1.5rem;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}

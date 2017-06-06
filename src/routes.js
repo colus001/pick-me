@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import Navigator from 'containers/Navigator'
+import Modal from 'containers/Modal'
 
 import Home from 'modules/Home'
 import About from 'modules/About'
@@ -23,6 +24,7 @@ const createRoutes = history => (
       <Route exact path="/test" component={Test} />
 
       <Navigator />
+      <Modal />
     </div>
   </Router>
 )
