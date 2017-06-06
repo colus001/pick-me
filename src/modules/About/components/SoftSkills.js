@@ -9,7 +9,7 @@ const SoftSkills = () => (
       Programming language is another way of communicating to others, like normal language I've learned.
     </p>
     <dl>
-      <dt>Communcator</dt>
+      <dt>Communicator</dt>
       <dd>Best developer designers want to work with</dd>
       <dt>Prototyper</dt>
       <dd>Make it fast to prove hypothesis</dd>
