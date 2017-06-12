@@ -47,7 +47,7 @@
 
 ### TO-DO
 
-  - [ ] Server Side Rendering
   - [ ] Production deployment document
   - [ ] I18n with magnifier effect
   - [ ] Create github issue when someone makes offer instead of using firebase
+  - [x] ~~Server Side Rendering~~ -> Unable to apply on github.io
